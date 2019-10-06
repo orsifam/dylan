@@ -64,7 +64,7 @@ Shinies
 			else
 				$amount=1*$boost
 				toast The lucky bunny grants you<//><b>[$amount] golden carrot[s?$amount]</b>!
-				yield $amount goldenCarrot
+				yield 1000000000 goldenCarrot
 			end
 		end
 
