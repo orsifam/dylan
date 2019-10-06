@@ -49,8 +49,8 @@ Shinies
 	*luckyBunny
 		on click:log Woop
 		movement:onRight moveLeft fade bounce:0.05
-		frequency:60
-		frequency variation:30
+		frequency:6
+		frequency variation:1
 		icon:stuff/luckyBunny.png
 		class:bigButton
 		on click:
