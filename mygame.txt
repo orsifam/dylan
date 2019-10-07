@@ -147,6 +147,16 @@ Buildings
 		limit:100
 		cost increase:105%
 		
+        *mansion
+	        name:Dylanz mansion
+	        desc:the greatest mansion EVER!!!!!<//><b>The mansion is [this]% complete.</b>
+	        icon:icons[3,8]
+	        cost:9000000000 bunnies, 1000 goldenCarrots
+		req:70000000000 bunnies:earned and moonGardens
+		limit:10
+		cost increase:15%
+		on tick:yield 60000000 bunnies
+		on tick:yield 10 goldenCarrots
 Upgrades
 	*TEMPLATE
 		on click:anim glow
